@@ -1,0 +1,10 @@
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.status {
+    font-weight: 500;
+}

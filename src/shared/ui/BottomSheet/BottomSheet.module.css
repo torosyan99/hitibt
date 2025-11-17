@@ -1,0 +1,38 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(6px);
+    z-index: 50;
+    align-items: flex-end;
+    display: none;
+}
+
+
+.open {
+    display: flex;
+}
+
+.sheet {
+    width: 100%;
+    padding: 16px 24px 36px;
+    background-color: #282727;
+    border-radius: 16px 16px 0 0;
+    margin-top: auto;
+    transform: translateY(100%);
+    transition: .2s all linear;
+    position: relative;
+}
+
+.sheet.showed {
+    transform: translateY(0);
+}
+
+.close {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}

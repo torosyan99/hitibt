@@ -1,0 +1,9 @@
+.titleText {
+    text-align: center;
+}
+
+.text {
+    margin-top: 12px;
+    font-weight: 500;
+    color: var(--gray-color);
+}

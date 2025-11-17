@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    background-color: #3A3A3A;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.line {
+    background-color: var(--gray-color);
+    height: 1px;
+}

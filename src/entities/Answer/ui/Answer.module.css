@@ -1,0 +1,16 @@
+.answer {
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.text {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #A3A2A2;
+
+}

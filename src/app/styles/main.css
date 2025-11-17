@@ -1,0 +1,48 @@
+:root {
+    --page-color: #141414;
+    --primary-color: #fff;
+    --secondary-color:#141414;
+    --orange-color: #EACB2D;
+    --red-color: #EB4E4B;
+    --inner-bg:#272626;
+    --blue-color: #428BF9;
+    --green-color: #17A060;
+    --gray-color:#A3A2A2;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+    background-color: var(--page-color);
+    color: var(--primary-color);
+}
+
+svg {
+    flex-shrink: 0;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.body-overflow {
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.app {
+    padding: 66px 16px 34px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.bg-app {
+    background: url("@/shared/assets/images/world-map.png") no-repeat top center / auto ;
+}

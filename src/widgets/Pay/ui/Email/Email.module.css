@@ -1,0 +1,11 @@
+.title {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.error {
+    color: var(--red-color);
+    margin-top: 6px;
+    font-size: 12px;
+}
