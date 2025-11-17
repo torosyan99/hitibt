@@ -1,4 +1,4 @@
-import type { UserCardConfig } from '@/features/UserCard/types';
+import type { UserCardConfig } from '../types';
 
 import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
 
