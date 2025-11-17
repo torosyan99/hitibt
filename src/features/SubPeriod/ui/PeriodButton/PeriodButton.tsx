@@ -4,9 +4,9 @@ import { Button  } from '@/shared/ui/Button/Button.tsx';
 
 import cls from './PeriodButton.module.css';
 
-import type { ButtonProps } from '../../types';
+import type { PeriodType } from '../../types';
 
-export const PeriodButton = ({ checked, tablet, price, period, onClick }: ButtonProps) => {
+export const PeriodButton = ({ checked, tablet, price, period, onClick }: PeriodType) => {
   return (
     <Button className={cls.button}  size={'large'} onClick={onClick}>
       {checked ? <YellowCheckIcon /> : <CircleIcon />}

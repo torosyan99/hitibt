@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 
 import type { AnswerProps } from '@/entities/Answer';
-import {RoutePaths} from "@/shared/configs/routesConfig/routesConfig.tsx";
 
+import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
 
 export interface ButtonProps {
   to: RoutePaths.SUBSCRIPTION | RoutePaths.PAY | RoutePaths.FREE_PERIOD;
@@ -22,5 +22,5 @@ export type UserCardConfig = {
 export interface UserCardProps {
   type: UserCardTypes;
   Profile?: ReactNode;
-  status:string
+  status: string;
 }
