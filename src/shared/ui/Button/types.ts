@@ -3,8 +3,8 @@ import  { type ButtonHTMLAttributes, type PropsWithChildren } from 'react';
 import type { LinkProps } from 'react-router-dom';
 
 type CommonProps = {
-  size?:'none' | 'small' | 'medium' | 'large' | 'huge';
-  theme?: 'primary' | 'blue';
+  size?:'none' | 'small' | 'medium' | 'large';
+  theme?: 'primary' | 'blue' | 'gray';
   className?: string;
 };
 

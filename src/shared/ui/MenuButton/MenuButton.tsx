@@ -7,23 +7,25 @@ import cls from './MenuButton.module.css';
 
 interface MenuButtonProps {
   Icon: ReactNode;
-  name: string;
+  title: string;
+  to?:string
   className?: string;
 }
 
 export const MenuButton = ({
   children,
   className,
+  to,
   Icon,
-  name,
+  title,
   ...others
 }: PropsWithChildren<MenuButtonProps>) => {
   const buttonClass = classNames(cls.button, [className]);
 
   return (
-    <Button className={buttonClass} {...others}>
+    <Button to={to} className={buttonClass} {...others}>
       {Icon}
-      <span className={cls.name}>{name}</span>
+      <span className={cls.name}>{title}</span>
       <span className={cls.end}> {children}</span>
     </Button>
   );

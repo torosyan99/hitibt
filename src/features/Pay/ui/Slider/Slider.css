@@ -5,19 +5,19 @@
 
 .rc-slider-track {
     border-radius: 999px 0 0 999px;
-    background-color: #EACB2D;
+    background-color: var(--orange-color);
     height: 100%;
 }
 
 .rc-slider-dot {
     width: 10px;
     height: 10px;
-    background-color: #EACB2D;
+    background-color: var(--orange-color);
     border: none;
 }
 
 .rc-slider-dot-active {
-    background-color: #EACB2D;
+    background: rgba(20, 20, 20, 0.7);
 }
 
 .rc-slider-rail {
