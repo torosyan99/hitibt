@@ -1,4 +1,4 @@
-import { UserCard } from '@/features/UserCard';
+import { UserCard } from '@/entities/UserCard';
 
 import { Navigation } from '../Navigation/Navigation.tsx';
 

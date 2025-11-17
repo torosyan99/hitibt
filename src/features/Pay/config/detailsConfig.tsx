@@ -1,6 +1,6 @@
-import type {PeriodType} from "@/features/SubPeriod";
+import type {DetailsType} from "../types";
 
-export const periodConfig: PeriodType[] = [
+export const detailsConfig: DetailsType[] = [
   {
     period: '7 дней',
     tablet: 'популярно',

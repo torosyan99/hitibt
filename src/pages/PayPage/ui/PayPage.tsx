@@ -1,4 +1,4 @@
-import {Pay} from "@/widgets/Pay";
+import {Pay} from "@/features/Pay";
 
 export const PayPage = () => {
   return (

@@ -1,15 +1,15 @@
 import { useReducer, useState } from 'react';
 
-import { SubPeriod } from '@/features/SubPeriod';
+import { Details } from '@/features/Pay/ui/Details/Details.tsx';
 
 import { Button } from '@/shared/ui/Button/Button.tsx';
-import { Slider } from '@/shared/ui/Slider/Slider.tsx';
 import { TitleText } from '@/shared/ui/TitleText/TitleText.tsx';
 
-import { periodConfig } from '../../config/periodConfig.tsx';
+import { detailsConfig } from '../../config/detailsConfig.tsx';
 import { reducer } from '../../model/reducer.tsx';
+import { Answer } from '../Answer/Answer.tsx';
 import { Email } from '../Email/Email.tsx';
-import { Answer } from './Answer';
+import { Slider } from '../Slider/Slider.tsx';
 
 import cls from './Pay.module.css';
 
@@ -19,7 +19,7 @@ const isValidEmail = (email: string) => {
 
 const initialState = {
   devices: 0,
-  period: periodConfig[0],
+  details: detailsConfig[0],
   email: {
     text: '',
     error: false,
@@ -35,6 +35,8 @@ export const Pay = () => {
       return;
     }
 
+    console.log(state)
+
     setIsOpen(true);
   };
 
@@ -45,20 +47,15 @@ export const Pay = () => {
         text={'Кол-во устройств: 1 устройство'}
       />
       <Slider setState={(v) => dispatch({ type: 'SET_DEVICES', payload: v })} />
-      <SubPeriod
-        config={periodConfig}
-        setState={(v) => dispatch({ type: 'SET_PERIOD', payload: v })}
-      />
+      <Details setState={(v) => dispatch({ type: 'SET_PERIOD', payload: v })} />
       <Email
         state={state.email.text}
         error={state.email.error}
         setState={(v) => dispatch({ type: 'SET_EMAIL', payload: v })}
       />
-
       <Answer state={state} isOpen={isOpen} onClose={() => setIsOpen(false)} />
-
       <Button size={'large'} theme={'blue'} onClick={onSubmit}>
-        <span>Оплатить {state.period.price}</span>
+        <span>Оплатить {state.details.price}</span>
       </Button>
     </section>
   );

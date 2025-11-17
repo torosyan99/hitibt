@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import { Info } from '@/widgets/Pay/ui/Info/Info.tsx';
-import { Waiting } from '@/widgets/Pay/ui/Waiting/Waiting.tsx';
+import { Info } from '../Info/Info.tsx';
+import { Waiting } from '../Waiting/Waiting.tsx';
 
 import { BottomSheet } from '@/shared/ui/BottomSheet/BottomSheet.tsx';
 

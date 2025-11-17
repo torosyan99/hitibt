@@ -20,7 +20,7 @@ export const Info = ({ onClick, state }: InfoProps) => {
       </div>
 
       <Button size={'large'} theme={'blue'} onClick={onClick}>
-        <span>Оплатить {state.period.price}</span>
+        <span>Оплатить {state.details.price}</span>
       </Button>
     </div>
   );

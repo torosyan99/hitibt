@@ -6,7 +6,7 @@ export function reducer(state: State, action: Action): State {
       return {...state, devices: action.payload};
 
     case 'SET_PERIOD':
-      return {...state, period: action.payload};
+      return {...state, details: action.payload};
 
     case 'SET_EMAIL':
       return {
