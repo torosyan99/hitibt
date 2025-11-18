@@ -4,4 +4,5 @@ export enum RoutePaths {
   SUBSCRIPTION = '/subscription',
   FREE_PERIOD = '/free-period',
   CONNECTION = '/connection',
+  MANUAL ='/manual',
 }

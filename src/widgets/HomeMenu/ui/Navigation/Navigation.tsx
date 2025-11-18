@@ -10,7 +10,7 @@ import cls from './Navigation.module.css';
 
 export const Navigation = () => {
   return (
-    <div className={cls.navigation}>
+    <nav className={cls.navigation}>
       <MenuButton Icon={<ShieldIcon />} to={RoutePaths.CONNECTION} title={'Настроить VPN'}>
         maсOS
       </MenuButton>
@@ -22,6 +22,6 @@ export const Navigation = () => {
       </MenuButton>
       <MenuButton className={cls.endButton} Icon={<ProfileIcon />} title={'Профиль'} />
       <MenuButton className={cls.endButton} Icon={<SupportIcon />} title={'Поддержка'} />
-    </div>
+    </nav>
   );
 };

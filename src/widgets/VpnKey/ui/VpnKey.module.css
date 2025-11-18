@@ -1,0 +1,13 @@
+.text {
+    margin-top: 8px;
+}
+
+.innerBox {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    padding:12px;
+    font-size: 15px;
+    background-color: var(--gray-color-2);
+    border-radius: 10px;
+    word-break: break-word;
+}

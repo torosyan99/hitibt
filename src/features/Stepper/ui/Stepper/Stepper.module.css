@@ -1,0 +1,20 @@
+.stepper {
+    min-height: calc(100dvh - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.stepper .box {
+    padding-top: 82px;
+    padding-bottom: 70px;
+}
+
+.box {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+

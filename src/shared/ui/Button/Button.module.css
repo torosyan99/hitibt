@@ -7,6 +7,11 @@
     font-weight: 500;
     border-radius: 16px;
     background-color: var(--inner-bg);
+    transition: all .2s linear;
+}
+
+.button:active {
+    background-color: #1a1a1a;
 }
 
 .button.center {
@@ -17,10 +22,19 @@
     background-color: var(--blue-color);
 }
 
+
+.button.blue:active {
+    background-color: #2d78ec
+}
+
 .button.gray {
     background-color: var(--gray-color-2);
 }
 
+.button.gray:active {
+    background-color: #333232;
+
+}
 .button.red {
     background-color: transparent;
     color: var(--red-color);
@@ -38,4 +52,5 @@
 
 .button.small {
     height: 46px;
+    border-radius: 12px;
 }

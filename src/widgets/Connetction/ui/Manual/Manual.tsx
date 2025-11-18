@@ -1,8 +1,9 @@
+import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
 import { Box } from '@/shared/ui/Box/Box.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 import { Text } from '@/shared/ui/Text/Text.tsx';
 
-import cls from './Manual.module.css'
+import cls from './Manual.module.css';
 
 export const Manual = () => {
   return (
@@ -11,7 +12,9 @@ export const Manual = () => {
       <Text className={cls.text} size={'small'} type={'gray'}>
         Вы можете настроить VPN вручную, для этого скопируйте ключ и вставьте в приложение.
       </Text>
-      <Button theme={'gray'} size={'small'}>Настроить вручную</Button>
+      <Button to={RoutePaths.MANUAL} theme={'gray'} size={'small'}>
+        Настроить вручную
+      </Button>
     </Box>
   );
 };

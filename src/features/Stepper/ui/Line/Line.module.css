@@ -1,0 +1,18 @@
+.line {
+    height: 8px;
+    background-color: var(--inner-bg);
+    border-radius: 999px;
+}
+
+.innerLine {
+    height: 100%;
+    background-color: var(--orange-color);
+    border-radius: 999px;
+}
+
+
+.stepNum {
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+}

@@ -3,3 +3,12 @@
     flex-direction: column;
     gap: 22px;
 }
+
+.button {
+    margin-top: 16px;
+}
+
+.devices {
+    margin-left: auto;
+    margin-right: auto;
+}

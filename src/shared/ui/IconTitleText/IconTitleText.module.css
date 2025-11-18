@@ -1,0 +1,12 @@
+.iconTitleText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.title {
+    margin-top: 16px;
+}
+

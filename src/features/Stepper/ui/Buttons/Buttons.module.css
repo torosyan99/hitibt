@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.button {
+    height: 48px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 12px;
+}
+

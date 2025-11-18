@@ -1,8 +1,15 @@
 .box {
-    padding: 16px 16px 12px;
     background-color: var(--inner-bg);
     border-radius: 16px;
     position: relative;
+}
+
+.box.v-1 {
+    padding: 16px 16px 12px;
+}
+
+.box.v-2 {
+    padding: 32px 24px;
 }
 
 .bottomText {
