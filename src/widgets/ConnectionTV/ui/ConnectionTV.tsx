@@ -8,7 +8,7 @@ import DownloadIcon from '@/shared/assets/images/download.svg?react';
 import QRIcon from '@/shared/assets/images/qr.svg?react';
 import ReadyIcon from '@/shared/assets/images/ready-icon.svg?react';
 import TVIcon from '@/shared/assets/images/tv.svg?react';
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 
 import cls from './ConnectionTV.module.css';

@@ -6,7 +6,7 @@ import DevicesIcon from '@/shared/assets/images/devices.svg?react';
 import { MenuButton } from '@/shared/ui/MenuButton/MenuButton.tsx';
 
 import cls from './Navigation.module.css';
-import {RoutePaths} from "@/shared/configs/routesConfig/routesPaths.tsx";
+import {RoutePaths} from "@/shared/config/routesConfig/routesPaths.tsx";
 
 interface NavigationProps {
   onOpenPanel: () => void;

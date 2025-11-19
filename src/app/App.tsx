@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { classNames } from '@/shared/libs/classNames/classNames.ts';
 
 import { Router } from './providers/router';

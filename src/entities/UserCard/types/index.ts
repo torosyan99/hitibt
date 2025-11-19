@@ -1,6 +1,6 @@
 import type { AnswerProps } from '@/entities/Answer';
 
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 
 export interface ButtonProps {
   to: RoutePaths.SUBSCRIPTION | RoutePaths.PAY | RoutePaths.FREE_PERIOD;

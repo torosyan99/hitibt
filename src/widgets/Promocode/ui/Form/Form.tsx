@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { Answer } from '@/entities/Answer';
 
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { Box } from '@/shared/ui/Box/Box.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 import { Input } from '@/shared/ui/Input/Input.tsx';

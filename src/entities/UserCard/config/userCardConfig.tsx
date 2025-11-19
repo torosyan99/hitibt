@@ -1,6 +1,6 @@
 import type { UserCardConfig } from '../types';
 
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 
 export const userCardConfig: UserCardConfig = {
   working: {

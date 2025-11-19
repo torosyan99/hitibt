@@ -1,4 +1,4 @@
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { Box } from '@/shared/ui/Box/Box.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 import { Text } from '@/shared/ui/Text/Text.tsx';

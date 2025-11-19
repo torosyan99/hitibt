@@ -3,7 +3,7 @@ import ProfileIcon from '@/shared/assets/images/profile-icon.svg?react';
 import RubIcon from '@/shared/assets/images/rub-icon.svg?react';
 import SupportIcon from '@/shared/assets/images/support.svg?react';
 import ShieldIcon from '@/shared/assets/images/shield.svg?react';
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { MenuButton } from '@/shared/ui/MenuButton/MenuButton.tsx';
 
 import cls from './Navigation.module.css';

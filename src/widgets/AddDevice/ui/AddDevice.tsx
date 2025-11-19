@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { Slider } from '@/features/Slider/ui/Slider.tsx';
 
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 
 import cls from './AddDevice.module.css';

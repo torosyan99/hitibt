@@ -4,7 +4,7 @@ import GamesIcon from '@/shared/assets/images/games.svg?react';
 import HomeIcon from '@/shared/assets/images/home.svg?react';
 import ProfileIcon from '@/shared/assets/images/profile-2.svg?react';
 import WalletIcon from '@/shared/assets/images/wallet.svg?react';
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 
 import { MenuLink } from '../MenuLink/MenuLink.tsx';
 

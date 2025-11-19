@@ -10,7 +10,7 @@ import { Stepper } from '@/features/Stepper';
 import DownLoadIcon from '@/shared/assets/images/download.svg?react';
 import ReadyIcon from '@/shared/assets/images/ready-icon.svg?react';
 import SettingIcon from '@/shared/assets/images/setting-2.svg?react';
-import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
+import { RoutePaths } from '@/shared/config/routesConfig/routesPaths.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 
 interface ConnectionStepperProps {

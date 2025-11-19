@@ -7,7 +7,7 @@ import { Box } from '@/shared/ui/Box/Box.tsx';
 import { MenuButton } from '@/shared/ui/MenuButton/MenuButton.tsx';
 
 import cls from './Navigation.module.css';
-import {RoutePaths} from "@/shared/configs/routesConfig/routesPaths.tsx";
+import {RoutePaths} from "@/shared/config/routesConfig/routesPaths.tsx";
 
 export const Navigation = () => {
   return (
