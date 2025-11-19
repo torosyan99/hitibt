@@ -1,0 +1,10 @@
+.devices {
+    margin: auto 0;
+}
+
+.buttons {
+    margin-top: 61px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

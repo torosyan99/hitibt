@@ -6,10 +6,11 @@ import cls from './Email.module.css';
 interface EmailProps {
   state: string;
   setState: (state: string) => void;
-  error:boolean;
+  error: boolean;
 }
 
 export const Email = ({ state, setState, error }: EmailProps) => {
+  const onClick = () => setState('12345566@t.me');
   return (
     <div className={cls.wrapper}>
       <Box>
@@ -17,7 +18,7 @@ export const Email = ({ state, setState, error }: EmailProps) => {
         <Input
           state={state}
           setState={setState}
-          tablet={'чек не нужен'}
+          right={<button className={cls.right} onClick={onClick}>ЧЕК НЕ НУЖЕН</button>}
           placeholder={'mail@mail.ru'}
         />
       </Box>

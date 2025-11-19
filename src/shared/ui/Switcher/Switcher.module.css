@@ -1,0 +1,38 @@
+.switcher {
+    display: flex;
+    padding: 4px;
+    background: var(--inner-bg);
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.switcher::before {
+    content: '';
+    z-index: -1;
+    width: 50%;
+    border-radius: 8px;
+    position: absolute;
+    background: var(--gray-color-2);
+    left: 4px;
+    top: 4px;
+    bottom: 4px;
+    transition: 0.2s left ease-in;
+}
+
+.switcher.left::before {
+    left: calc(50% - 4px);
+}
+
+.button {
+    width: 50%;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+    justify-content: center;
+}

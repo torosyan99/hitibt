@@ -2,7 +2,7 @@ import type {ReactNode} from "react";
 
 export type Steps = Array<{
   text: string;
-  children: ReactNode;
+  children?: ReactNode;
   Icon: ReactNode;
 }>
 

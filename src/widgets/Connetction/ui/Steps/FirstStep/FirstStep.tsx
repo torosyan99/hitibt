@@ -19,7 +19,7 @@ export const FirstStep = () => {
       </Button>
       <BottomSheet isOpen={isOpen} onClose={onClose}>
         <h5>Внимание</h5>
-        <Text size={'small'} type={'gray'} className={cls.text}>
+        <Text size={'medium'} type={'gray'} className={cls.text}>
           После установки приложения Happ обязательно вернитесь на этот экран и нажмите «Далее»,
           чтобы добавить ключ в приложение, без этого VPN работать не будет!
         </Text>

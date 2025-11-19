@@ -1,6 +1,6 @@
 import { Devices } from '@/entities/Devices/ui/Devices.tsx';
 
-import ShieldIcon from '@/shared/assets/images/shield-icon-b.svg?react';
+import ShieldIcon from '@/shared/assets/images/shield-b.svg?react';
 import { Box } from '@/shared/ui/Box/Box.tsx';
 import { Button } from '@/shared/ui/Button/Button.tsx';
 import { IconTitleText } from '@/shared/ui/IconTitleText/IconTitleText.tsx';

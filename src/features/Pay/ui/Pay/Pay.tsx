@@ -3,13 +3,12 @@ import { useReducer, useState } from 'react';
 import { Details } from '@/features/Pay/ui/Details/Details.tsx';
 
 import { Button } from '@/shared/ui/Button/Button.tsx';
-import { TitleText } from '@/shared/ui/TitleText/TitleText.tsx';
 
 import { detailsConfig } from '../../config/detailsConfig.tsx';
 import { reducer } from '../../model/reducer.tsx';
 import { Answer } from '../Answer/Answer.tsx';
 import { Email } from '../Email/Email.tsx';
-import { Slider } from '../Slider/Slider.tsx';
+import { Slider } from '../../../Slider/ui/Slider.tsx';
 
 import cls from './Pay.module.css';
 
@@ -18,7 +17,7 @@ const isValidEmail = (email: string) => {
 };
 
 const initialState = {
-  devices: 0,
+  devices: 3,
   details: detailsConfig[0],
   email: {
     text: '',
@@ -41,11 +40,7 @@ export const Pay = () => {
   };
 
   return (
-    <section className={cls.pay}>
-      <TitleText
-        title={'Выберите кол-во устройств и период подписки'}
-        text={'Кол-во устройств: 1 устройство'}
-      />
+    <div className={cls.pay}>
       <Slider setState={(v) => dispatch({ type: 'SET_DEVICES', payload: v })} />
       <Details setState={(v) => dispatch({ type: 'SET_PERIOD', payload: v })} />
       <Email
@@ -57,6 +52,6 @@ export const Pay = () => {
       <Button size={'large'} theme={'blue'} onClick={onSubmit}>
         <span>Оплатить {state.details.price}</span>
       </Button>
-    </section>
+    </div>
   );
 };

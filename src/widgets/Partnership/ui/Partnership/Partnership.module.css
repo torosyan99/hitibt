@@ -1,0 +1,13 @@
+.partnership {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.text {
+    margin-bottom: 18px;
+}
+
+.text span {
+    color: #FFDD2D;
+}

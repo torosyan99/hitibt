@@ -1,0 +1,17 @@
+.panel {
+    padding: 180px 16px 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--page-color);
+    z-index: 100;
+    transform: translateX(100%);
+    overflow-y: auto;
+    transition: all linear 0.3s;
+}
+
+.panel.open {
+    transform: translateX(0);
+}

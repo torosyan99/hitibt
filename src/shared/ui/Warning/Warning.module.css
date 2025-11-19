@@ -1,0 +1,21 @@
+.warning {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.warning.orange {
+    border: #E5A000 2px solid;
+    color: #E5A000;
+    --warning-color:#E5A000;
+}
+
+.warning.gray {
+    font-weight: 500;
+    border: #9A9A9A 2px solid;
+    color: #9A9A9A;
+    --warning-color:#9A9A9A;
+}

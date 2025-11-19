@@ -1,0 +1,13 @@
+.title {
+    margin-bottom: 14px;
+}
+
+.historyTop {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    height: 52px;
+}

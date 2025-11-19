@@ -5,7 +5,7 @@ import {Text} from "@/shared/ui/Text/Text.tsx";
 
 interface IconTitleTextProps {
   title: string
-  text: string
+  text: string | ReactNode
   Icon:ReactNode
 }
 
@@ -14,7 +14,7 @@ export const IconTitleText = ({title, text, Icon}:IconTitleTextProps) => {
     <div className={cls.iconTitleText}>
       {Icon}
       <h5 className={cls.title}>{title}</h5>
-      <Text size={'small'} type={'gray'}>
+      <Text size={'medium'} type={'gray'}>
         {text}
       </Text>
     </div>

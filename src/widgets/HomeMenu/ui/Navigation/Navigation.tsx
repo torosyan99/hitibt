@@ -1,8 +1,8 @@
-import DesktopIcon from '@/shared/assets/images/desktop-icon.svg?react';
+import DesktopIcon from '@/shared/assets/images/desktop.svg?react';
 import ProfileIcon from '@/shared/assets/images/profile-icon.svg?react';
 import RubIcon from '@/shared/assets/images/rub-icon.svg?react';
-import ShieldIcon from '@/shared/assets/images/shield-icon.svg?react';
-import SupportIcon from '@/shared/assets/images/support-icon.svg?react';
+import SupportIcon from '@/shared/assets/images/support.svg?react';
+import ShieldIcon from '@/shared/assets/images/shield.svg?react';
 import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
 import { MenuButton } from '@/shared/ui/MenuButton/MenuButton.tsx';
 
@@ -14,13 +14,13 @@ export const Navigation = () => {
       <MenuButton Icon={<ShieldIcon />} to={RoutePaths.CONNECTION} title={'Настроить VPN'}>
         maсOS
       </MenuButton>
-      <MenuButton Icon={<DesktopIcon />} title={'VPN на телевизор'}>
+      <MenuButton to={RoutePaths.CONNECTION_TV} Icon={<DesktopIcon />} title={'VPN на телевизор'}>
         AndroidTV
       </MenuButton>
-      <MenuButton Icon={<RubIcon />} title={'VPN на телевизор'}>
+      <MenuButton to={RoutePaths.PARTNERSHIP} Icon={<RubIcon />} title={'VPN на телевизор'}>
         0 ₽
       </MenuButton>
-      <MenuButton className={cls.endButton} Icon={<ProfileIcon />} title={'Профиль'} />
+      <MenuButton to={RoutePaths.PROFILE} className={cls.endButton} Icon={<ProfileIcon />} title={'Профиль'} />
       <MenuButton className={cls.endButton} Icon={<SupportIcon />} title={'Поддержка'} />
     </nav>
   );

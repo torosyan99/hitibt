@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0 16px;
+}
+
+.period {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-color);
+    line-height: 1;
+    font-weight: 500;
+}

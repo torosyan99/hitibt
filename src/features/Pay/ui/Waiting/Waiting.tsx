@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import cls from './Waiting.module.css'
 
 
-import ExportIcon from '@/shared/assets/images/export-icon.svg?react';
+import ExportIcon from '@/shared/assets/images/export.svg?react';
 import LoadIcon from '@/shared/assets/images/load.svg?react';
 import {Button} from "@/shared/ui/Button/Button.tsx";
 

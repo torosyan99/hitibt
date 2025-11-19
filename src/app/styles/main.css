@@ -37,11 +37,20 @@ h5 {
 }
 
 .app {
-    padding: 66px 16px 34px;
+    min-height: 100dvh;
+    padding: 66px 0 34px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.app section {
+    padding: 0 16px;
+}
+
+.app-with-menu {
+    padding-bottom: 95px;
 }
 
 .bg-app {

@@ -1,0 +1,23 @@
+.info {
+    margin-top: 18px;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px  #444343 solid;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.text span {
+    color: #969595;
+}
+
+.button {
+    width: fit-content;
+    font-size: 14px;
+}

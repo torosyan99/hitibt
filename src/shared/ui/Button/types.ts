@@ -4,7 +4,7 @@ import type { LinkProps } from 'react-router-dom';
 
 type CommonProps = {
   size?:'none' | 'small' | 'medium' | 'large';
-  theme?: 'primary' | 'blue' | 'gray';
+  theme?: 'primary' | 'blue' | 'gray' | 'red';
   className?: string;
 };
 

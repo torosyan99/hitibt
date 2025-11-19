@@ -13,7 +13,7 @@ export const Answer = ({ type, text, title, className }: AnswerProps) => {
     <div className={classNames(cls.answer, [className])}>
       {Icon}
       <h5 className={cls.title}>{title}</h5>
-      <Text className={cls.text} size={'small'} type={'gray'}>
+      <Text className={cls.text} size={'medium'} type={'gray'}>
         {text}
       </Text>
     </div>

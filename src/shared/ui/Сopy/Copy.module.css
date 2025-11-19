@@ -1,0 +1,35 @@
+.block {
+    padding: 12px;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    font-weight: 500;
+    margin-top: 12px;
+    overflow: hidden;
+    background-color: var(--gray-color-2);
+    position: relative;
+}
+
+.text {
+    width: calc(100% - 20px);
+    overflow: hidden;
+}
+
+.block::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    background: linear-gradient(270.00deg, rgba(58, 58, 58, 1) 70%,rgba(58, 58, 58, 0) 100%);
+}
+
+.button {
+    height: 20px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    --copy-color:var(--primary-color);
+}

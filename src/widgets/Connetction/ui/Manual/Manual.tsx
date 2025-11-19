@@ -9,7 +9,7 @@ export const Manual = () => {
   return (
     <Box className={cls.box}>
       <h5>Ручная настройка</h5>
-      <Text className={cls.text} size={'small'} type={'gray'}>
+      <Text className={cls.text} size={'medium'} type={'gray'}>
         Вы можете настроить VPN вручную, для этого скопируйте ключ и вставьте в приложение.
       </Text>
       <Button to={RoutePaths.MANUAL} theme={'gray'} size={'small'}>

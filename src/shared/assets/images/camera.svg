@@ -1,0 +1,22 @@
+<svg viewBox="0 0 121 104" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.000000" height="104.000000" fill="none">
+	<rect id="Currency 1" width="121.000000" height="104.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="Group">
+		<path id="Vector" d="M105.316 85.0578L49.3619 85.0578C41.5474 85.0578 35.2095 78.7049 35.2095 70.8651L35.2095 38.2249C35.2095 30.3882 41.5444 24.0322 49.3619 24.0322L105.316 24.0322C113.13 24.0322 119.468 30.3852 119.468 38.2249L119.468 70.8682C119.468 78.7049 113.133 85.0578 105.316 85.0578Z" fill="rgb(20.278,20.278,20.278)" fill-rule="nonzero" />
+		<path id="Vector" d="M49.3619 85.0578C41.5474 85.0578 35.2095 78.7049 35.2095 70.8651L35.2095 38.2249C35.2095 30.3882 41.5444 24.0322 49.3619 24.0322L105.316 24.0322C113.13 24.0322 119.468 30.3852 119.468 38.2249L119.468 70.8682C119.468 78.7049 113.133 85.0578 105.316 85.0578L49.3619 85.0578Z" fill-rule="nonzero" stroke="rgb(233,239,248)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+	</g>
+	<g id="Group">
+		<path id="Vector" d="M86.5931 102.464L30.639 102.464C22.8246 102.464 16.4866 96.1113 16.4866 88.2715L16.4866 55.6283C16.4866 47.7915 22.8215 41.4355 30.639 41.4355L86.5931 41.4355C94.4076 41.4355 100.746 47.7885 100.746 55.6283L100.746 88.2715C100.746 96.1113 94.4076 102.464 86.5931 102.464Z" fill="rgb(20.278,20.278,20.278)" fill-rule="nonzero" />
+		<path id="Vector" d="M30.639 102.464C22.8246 102.464 16.4866 96.1113 16.4866 88.2715L16.4866 55.6283C16.4866 47.7915 22.8215 41.4355 30.639 41.4355L86.5931 41.4355C94.4076 41.4355 100.746 47.7885 100.746 55.6283L100.746 88.2715C100.746 96.1113 94.4076 102.464 86.5931 102.464L30.639 102.464Z" fill-rule="nonzero" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+		<path id="Vector" d="M58.6161 89.5525C48.922 89.5525 41.0634 81.6715 41.0634 71.9498C41.0634 62.2281 48.922 54.3472 58.6161 54.3472C68.3101 54.3472 76.1687 62.2281 76.1687 71.9498C76.1687 81.6715 68.3101 89.5525 58.6161 89.5525Z" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+	</g>
+	<g id="Group">
+		<g id="Group">
+			<path id="Vector" d="M14.0821 0L0 0" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="matrix(0,1,-1,0,29.619,1.53613)" />
+			<path id="Vector" d="M20.2545 10.9242L29.619 1.53613L38.9804 10.9242" fill-rule="nonzero" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+		</g>
+		<g id="Group">
+			<path id="Vector" d="M0 0L14.0852 0" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="matrix(0,1,-1,0,10.8931,20.312)" />
+			<path id="Vector" d="M20.2544 25.0063L10.893 34.3975L1.53162 25.0063" fill-rule="nonzero" stroke="rgb(255,230,101)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+		</g>
+	</g>
+</svg>

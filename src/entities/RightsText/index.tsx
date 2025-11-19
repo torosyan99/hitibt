@@ -1,0 +1,1 @@
+export {RightText} from './ui/RightText.tsx'

@@ -1,0 +1,1 @@
+export {PromocodePage} from './ui/PromocodePage.tsx'

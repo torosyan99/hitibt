@@ -1,0 +1,10 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 22px;
+}
+
+.button {
+    margin-top: 26px;
+}

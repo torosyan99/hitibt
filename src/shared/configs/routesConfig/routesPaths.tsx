@@ -1,8 +1,17 @@
 export enum RoutePaths {
   MAIN = '/',
   PAY = '/pay',
+  ADD_DEVICES = '/add_devices',
   SUBSCRIPTION = '/subscription',
   FREE_PERIOD = '/free-period',
   CONNECTION = '/connection',
-  MANUAL ='/manual',
+  MANUAL = '/manual',
+  WEEK = '/week',
+  PARTNERSHIP = '/partnership',
+  ALL_HISTORY = '/partnership/all-history',
+  PROFILE = '/profile',
+  PROMOCODE = '/promocode',
+  CONNECTION_TV = '/connectionTV',
+  DISABLE = '/disable',
+  NO_SUBSCRIPTION = '/no_subscription',
 }

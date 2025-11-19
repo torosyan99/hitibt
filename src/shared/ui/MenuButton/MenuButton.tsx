@@ -1,32 +1,30 @@
-import type { PropsWithChildren, ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 import { classNames } from '@/shared/libs/classNames/classNames.ts';
 import { Button } from '@/shared/ui/Button/Button.tsx';
+import { type ButtonProps } from '@/shared/ui/Button/types.ts';
 
 import cls from './MenuButton.module.css';
 
-interface MenuButtonProps {
+type MenuButtonProps = {
   Icon: ReactNode;
   title: string;
-  to?:string
   className?: string;
-}
+} & ButtonProps;
 
-export const MenuButton = ({
-  children,
-  className,
-  to,
-  Icon,
-  title,
-  ...others
-}: PropsWithChildren<MenuButtonProps>) => {
+export const MenuButton = ({ children, className, Icon, title, ...others }: MenuButtonProps) => {
   const buttonClass = classNames(cls.button, [className]);
-
-  return (
-    <Button to={to} className={buttonClass} {...others}>
+  const innerTag = (
+    <>
       {Icon}
       <span className={cls.name}>{title}</span>
       <span className={cls.end}> {children}</span>
+    </>
+  );
+
+  return (
+    <Button className={buttonClass} {...others}>
+      {innerTag}
     </Button>
   );
 };

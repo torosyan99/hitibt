@@ -1,5 +1,3 @@
-import type { ReactNode } from 'react';
-
 import type { AnswerProps } from '@/entities/Answer';
 
 import { RoutePaths } from '@/shared/configs/routesConfig/routesPaths.tsx';
@@ -21,6 +19,13 @@ export type UserCardConfig = {
 
 export interface UserCardProps {
   type: UserCardTypes;
-  Profile?: ReactNode;
   status: string;
+}
+
+export interface UserCardWithAvatarProps {
+  type: UserCardTypes;
+  status: string;
+  url?: string;
+  name: string;
+  id: string;
 }

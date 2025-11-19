@@ -1,0 +1,17 @@
+.link {
+    width: 60px;
+    --menu-icon-color:#D5D8E4;
+    color:#D5D8E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    gap: 6px;
+
+}
+
+.link.active {
+    --menu-icon-color:#FFDD2D;
+    color:#FFDD2D;
+}

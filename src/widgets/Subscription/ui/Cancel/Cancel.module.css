@@ -1,0 +1,14 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.button {
+    font-size: 18px;
+}
+
+.menuButton {
+    margin-top: 26px;
+}
